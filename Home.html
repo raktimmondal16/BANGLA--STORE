@@ -9,6 +9,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+     <!-----------JS FOR MENU----------------->
+<script>
+    
+    const menuIcon = document.querySelector('.menu-icon');
+    const navLinks = document.querySelector('nav ul');
+  
+    menuIcon.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+  
+
 </head>
 
 <body>
@@ -401,7 +414,6 @@
             <p class="copyright">Copyright2023-raktimmondal</p>
         </div>
     </div>
-<!--------------------------js for toggle menu---------------------------------->
 
 
 
